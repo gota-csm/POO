@@ -7,7 +7,7 @@ function declararVariables() {
     let ahora = 2024;
     let fecha_nac = 2007;
     let resultado = ahora - fecha_nac;
-    alert("Mi edad actual es: " + resultado);
+    alert(`Mi edad actual es: ${resultado}`);
     // Tu código aquí
 }
 
@@ -17,7 +17,7 @@ function declararVariables() {
 function asignarValores() {
     let var1 = 15;
     let var2 = var1;
-    alert("El valor de la segunda variable es: " + var2);
+    alert(`El valor de la segunda variable es: ${var2}`);
     // Tu código aquí
 }
 
@@ -34,7 +34,7 @@ function realizarOperaciones() {
     let multi = num2 * num3;
     let divi = num1 / 120;
 
-    alert("La suma es " + suma + "\n La resta es " + resta + "\n La multiplicación es " + multi + "\n La division es " + divi);
+    alert(`La suma es ${suma} \nLa resta es ${resta} \nLa multiplicación es ${multi} \nLa division es ${divi}`);
     // Tu código aquí
 }
 
@@ -46,13 +46,12 @@ function manipularCadenas() {
     let num_casa = "8544";
     let mensaje = "Su direccion es: " + direccion + "\nNúmero de casa: " + num_casa;
     let longitud = mensaje.length;
-    alert("Mensaje: " + mensaje + "\nLongitud: " + longitud + "\nAntepenultimo Caracter: " + mensaje[mensaje.length - 3]);
+    alert(`Mensaje: ${mensaje} \nLongitud: ${longitud} \nAntepenultimo Caracter: ${mensaje[mensaje.length - 3]}`);
     // Tu código aquí
 }
 
 function sumaIndices() {
     let arreglo = [2, 5, 3, 10, 4, 15, 13];
     let suma_indices = arreglo[0] + arreglo[5] + arreglo[6];
-    alert("Primer número del array: " + arreglo[0] + "\nPenúltimo número del array: " + arreglo[5] +
-        "\nÚltimo número del array: " + arreglo[6] + "\nLa suma de estos dos números es: " + suma_indices);
+    alert(`Primer número del array: ${arreglo[0]} \nPenúltimo número del array: ${arreglo[5]} \nÚltimo número del array: ${arreglo[6]} \nLa suma de estos dos números es: ${suma_indices}`);
 }
