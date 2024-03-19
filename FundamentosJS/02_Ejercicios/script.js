@@ -4,8 +4,8 @@ console.log("Vinculado correctamente...")
 // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
 
 function declararVariables() {
-        let ahora = 2023;
-        let fecha_nac = 2004;
+        let ahora = 2024;
+        let fecha_nac = 2007;
         let resultado = ahora - fecha_nac;
         alert("Mi edad actual es: " + resultado);
     // Tu código aquí
