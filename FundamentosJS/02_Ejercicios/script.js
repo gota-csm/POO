@@ -4,14 +4,20 @@ console.log("Vinculado correctamente...")
 // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
 
 function declararVariables() {
-    alert("Esto es una alerta")
+        let ahora = 2023;
+        let fecha_nac = 2004;
+        let resultado = ahora - fecha_nac;
+        alert("Mi edad actual es: " + resultado);
     // Tu código aquí
     }
     
-    // Ejercicio 2: Asignación de valores
-    // Instrucciones: Completa la función para asignar el valor de 'x' a 'y' y luego muestra el valor de 'y'.
-    function asignarValores() {
     
+    // Ejercicio 2: Asignación de valores
+    // Instrucciones: Completa la función para asignar el valor de 'var1' a 'var2' y luego muestra el valor de 'var2'.
+    function asignarValores() {
+        let var1 = 15;
+        let var2 = var1;
+        alert("El valor de la segunda variable es: " + var2);
     // Tu código aquí
     }
     
@@ -20,14 +26,26 @@ function declararVariables() {
     // Suma 'num1' y 'num2' y 'num3', resta 'num1' de 'num3', multiplica 'num2' por 'num3', y divide 'num1' entre '120'.
     // Muestra los resultados en un mensaje.
     function realizarOperaciones() {
-    alert("")
+        let num1 = 10;
+        let num2 = 15;
+        let num3 = 20;
+        let suma = num1 + num2 + num3;
+        let resta = num1 - num3;
+        let multi = num2 * num3;
+        let divi = num1 / 120;
+        
+        alert("La suma es " + suma + "\n La resta es " + resta + "\n La multiplicación es " + multi + "\n La division es " + divi );
     // Tu código aquí
     }
     
     // Ejercicio 4: Manipulación de cadenas
     // Instrucciones: Completa la función para construir un mensaje utilizando las variables 'direccion' y 'num_casa'.
-    // Luego, muestra la longitud del mensaje y el primer carácter en el mensaje.
+    // Luego, muestra la longitud del mensaje y el antepenultimo en el mensaje. (.length)
     function manipularCadenas() {
-    
+        let direccion = "Juan Luis Sanfuentes";
+        let num_casa = "8544";
+        let mensaje = "Su direccion es: " + direccion + "\nNúmero de casa: " + num_casa;
+        let longitud = mensaje.length;
+        alert("Mensaje: " + mensaje +"\nLongitud: " + longitud +"\nAntepenultimo Caracter: " + mensaje[mensaje.length - 3]);
     // Tu código aquí
     }
